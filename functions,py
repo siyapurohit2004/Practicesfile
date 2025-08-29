@@ -1,0 +1,5 @@
+def greetings_function(name,age):
+    print ('Welcome ' + name + '.you are '+str(age)+' Years old.')
+name = input('Enter your name:')
+age = input('Enter your age:')
+greetings_function (name, age)
